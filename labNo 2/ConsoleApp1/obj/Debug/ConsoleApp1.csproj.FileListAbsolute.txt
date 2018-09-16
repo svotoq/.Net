@@ -1,0 +1,10 @@
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\bin\Debug\System.ValueTuple.dll
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\bin\Debug\System.ValueTuple.xml
+E:\1 курс\2 курс\1 семестр\labNo 2\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
