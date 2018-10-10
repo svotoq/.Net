@@ -8,9 +8,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Types();
+
             //Strings();
+
             //Arrays();
+
             //Cortege();
+
             int[] ArrayInt32 = { 3, 4, 5, 2, 4, 2, 4 };
             string str = "HELLOW";
             str = MyFunction(ArrayInt32, str, out int max, out int min);
@@ -46,10 +50,10 @@ namespace ConsoleApp1
 
             //2 Приведения
             //1.Явные
-            short ByteToShort = bytePrimit;
-            int ShortToInt32 = ByteToShort;
-            long IntToInt64 = ShortToInt32;
-            decimal In64ToDecimal = IntToInt64;
+            short ByteToShort = (short)bytePrimit;
+            int ShortToInt32 = (int)ByteToShort;
+            long IntToInt64 = (long)ShortToInt32;
+            decimal In64ToDecimal = (decimal)IntToInt64;
             byte IntToByte = Convert.ToByte(ShortToInt32);
             //2.Неявные
             shortPrimit = sbytePrimit;
@@ -60,12 +64,12 @@ namespace ConsoleApp1
 
             //3. boxing
             //упаковка
+            object obj = IntToByte;
             //распоковка
-
             //4. неявно тип. переменная
             var nT = 'h';
             var nT2 = "hi";
-            var nT3 = 22;
+            var n3 = 22;
 
             //5. Nullable переменная
             int? nullInt = null;
@@ -81,8 +85,8 @@ namespace ConsoleApp1
         static void Strings()
         {
             //1. Сравнение    
-            string s4 = new String(new char[] { 'w', 'o', 'r', 'l', 'd' });
-            string s5 = new String(new char[] { 'w', 'o', 'r', 'l', 'd' });
+            string s4 = new string(new char[] { 'w', 'o', 'r', 'l', 'd' });
+            string s5 = new string(new char[] { 'w', 'o', 'r', 'l', 'd' });
             if (Equals(s4, s5))
             {
                 Console.WriteLine("Строки равны!");
@@ -94,10 +98,10 @@ namespace ConsoleApp1
 
             //2. сцепление
             string s1 = "hello";
-            string s2 = String.Concat(s1, "world");
+            string s2 = string.Concat(s1, "world");
 
             //копирование
-            string s3 = String.Copy(s2);
+            string s3 = string.Copy(s2);
 
             //выделение подстроки
             s2 = s2.Substring(2, 5);
