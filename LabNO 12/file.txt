@@ -1,0 +1,20 @@
+“ËÔ ÍÎ‡ÒÒ‡ - LabNO_12.Circle
+LabNO_12.Circle Method get_CenterX
+LabNO_12.Circle Method set_CenterX
+LabNO_12.Circle Method get_CenterY
+LabNO_12.Circle Method set_CenterY
+LabNO_12.Circle Method get_Radius
+LabNO_12.Circle Method set_Radius
+LabNO_12.Circle Method Info
+LabNO_12.Circle Method —ircumference
+LabNO_12.Circle Method Area
+LabNO_12.Circle Method op_Addition
+LabNO_12.Circle Method ToString
+System.Object Method Equals
+System.Object Method GetHashCode
+System.Object Method GetType
+LabNO_12.Circle Constructor .ctor
+LabNO_12.Circle Property CenterX
+LabNO_12.Circle Property CenterY
+LabNO_12.Circle Property Radius
+LabNO_12.Circle Field name

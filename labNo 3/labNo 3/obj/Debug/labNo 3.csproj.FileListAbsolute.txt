@@ -5,3 +5,10 @@ E:\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\la
 E:\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.csproj.CoreCompileInputs.cache
 E:\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.exe
 E:\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.pdb
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\bin\Debug\labNo 3.exe.config
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\bin\Debug\labNo 3.exe
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\bin\Debug\labNo 3.pdb
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.csprojAssemblyReference.cache
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.csproj.CoreCompileInputs.cache
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.exe
+E:\Учеба\БГТУ\2 курс\1 семестр\ООП\Labs\labNo 3\labNo 3\obj\Debug\labNo 3.pdb

@@ -18,6 +18,7 @@ namespace labNo_3
         public int Amount { get => amount; }
         readonly int ID;
         public const string vlados = "Vlados";
+
         public int this[int index]
         {
             get
@@ -30,7 +31,7 @@ namespace labNo_3
             }
         }
 
-        private int sum(int num)
+        public int sum(int num)
         {
             return num += array[0];
         }
@@ -70,7 +71,7 @@ namespace labNo_3
         }
 
         public override int GetHashCode()
-        { // 269 или 47 простые 
+        { 
             int hash = 269;
             hash = string.IsNullOrEmpty(Name) ? 0 : Name.GetHashCode();
             hash = (hash * 47) + ID.GetHashCode();
@@ -113,9 +114,5 @@ namespace labNo_3
             else
                 return false;
         }
-        //    public bool module()
-        //    {
-        //        if()
-        //    }
     }
 }

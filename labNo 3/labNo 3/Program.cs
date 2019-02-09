@@ -6,9 +6,9 @@ namespace labNo_3
     {
         static void Main(string[] args)
         {
-            Vector vec = new Vector(0, 0, "top");
+            Vector vec = new Vector(10, 0, "top");
             Vector vec2 = new Vector(5, 0, "super vector");
-            Vector vec3 = new Vector(0);
+            Vector vec3 = new Vector(1);
             Vector vec4 = new Vector();
             Vector vec5 = new Vector(2);
 
@@ -20,6 +20,7 @@ namespace labNo_3
             Console.WriteLine("Vec2 hasCode: " + vec2.GetHashCode());
             Console.WriteLine("vec4 hasCode: " + vec4.GetHashCode());
             Console.WriteLine("Equals? " + vec.Equals(vec2));
+            Console.WriteLine(vec2.sum(5));
 
             Vector[] vecArray = { vec, vec2, vec3, vec4, vec5 };
             foreach (Vector a in vecArray)
@@ -31,9 +32,9 @@ namespace labNo_3
             string name = "default";
             foreach (Vector a in vecArray)
             {
-                if (a.Array < now)
+                if (Math.Abs(a.Array) < now)
                 {
-                    now = a.Array;
+                    now = Math.Abs(a.Array);
                     name = a.Name;
                 }
             }

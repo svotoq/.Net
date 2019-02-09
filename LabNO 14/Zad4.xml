@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Experements>
+  <Exp number="1">
+    <Name>Петя</Name>
+    <ParamA>йод</ParamA>
+    <ParamB>крахмал</ParamB>
+  </Exp>
+  <Exp number="2">
+    <Name>ЖОРИК</Name>
+    <ParamA>Ba</ParamA>
+    <ParamB>SO4</ParamB>
+  </Exp>
+</Experements>

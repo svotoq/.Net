@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfExperement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Experement>
+    <Name>Вова</Name>
+    <ParamA>йод</ParamA>
+    <ParamB>крахмал</ParamB>
+  </Experement>
+  <Experement>
+    <Name>ИГОРЬ</Name>
+    <ParamA>Ba</ParamA>
+    <ParamB>SO4</ParamB>
+  </Experement>
+  <Experement>
+    <Name>Таджик</Name>
+    <ParamA>рука</ParamA>
+    <ParamB>нога</ParamB>
+  </Experement>
+</ArrayOfExperement>

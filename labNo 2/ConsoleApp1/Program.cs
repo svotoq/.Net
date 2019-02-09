@@ -65,7 +65,6 @@ namespace ConsoleApp1
             //3. boxing
             //упаковка
             object obj = IntToByte;
-            //распоковка
             //4. неявно тип. переменная
             var nT = 'h';
             var nT2 = "hi";
@@ -207,7 +206,7 @@ namespace ConsoleApp1
 
             //4. Неявно типизированные переменные 
             var VarArr = new[] { 12, 16, 14 };
-            var VarStr = "Неявнотипизированная строка";
+            var VarStr = "Неявно типизированная строка";
         }
 
         static void Cortege()
@@ -233,7 +232,7 @@ namespace ConsoleApp1
         static string MyFunction(int[] numbers, string str, out int max, out int min)
         {
             min = numbers[0]; int minIndex = 0;
-            for (int i = 0; i < numbers.Length-1; i++)
+            for (int i = 0; i < numbers.Length-1; i++) //поиск мин
             {
                 if (min > numbers[i])
                 {
@@ -243,7 +242,7 @@ namespace ConsoleApp1
             }
 
             max = numbers[0]; int maxIndex = 0;
-            for (int i = 0; i < numbers.Length - 1; i++)
+            for (int i = 0; i < numbers.Length - 1; i++)//поиск макс
             {
                 if (max < numbers[i])
                 {
